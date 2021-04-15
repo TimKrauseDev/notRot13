@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <link href='index.css' rel='stylesheet'>
+    </head>
+    <body>
+        <h1>notROT13.com</h1>
+        <h2><a href='https://en.wikipedia.org/wiki/ROT13'>About ROT13</a></h2>
+        <textarea id='inputText' class='textArea' cols='80' rows='12' placeholder='Enter Text.' oninput='inputTextChange()'></textarea>
+        <span>&#129047;</span>
+        <select id='rotNumber' oninput='selectorChange()'></select>
+        <span>&#129045;</span>
+        <textarea id='outputText' class='textArea' cols='80' rows='12' placeholder='Enter Rot Text.' oninput='outputTextChange()'></textarea>
+    </body>
+    <script src='index.js'></script>
+</html>
